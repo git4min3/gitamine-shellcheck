@@ -3,7 +3,7 @@
 ## Requirements
 
 * php >= 7.1
-* gitamine
+* Gitamine
 * shellcheck
 * Linux/Mac
 
