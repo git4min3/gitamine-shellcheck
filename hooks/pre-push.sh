@@ -3,12 +3,11 @@
 BIN=shellcheck
 
 # The reading options part
-while [[ $# -gt 0 ]] && [[ ."$1" = .--* ]] ;
+while [[ $# -gt 0 ]] && [[ ."$1" = .* ]] ;
 do
     opt="$1";
     shift;              #expose next argument
     case "$opt" in
-        "--" ) break 2;;
         "--bin="* )
            BIN="${opt#*=}";;
    esac
